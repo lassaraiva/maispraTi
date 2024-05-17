@@ -1,6 +1,6 @@
 // Ler dois valores (diferentes) e exibi-los em ordem crescente.
 
-const prompt = require('prompt-sync')();
+let prompt = require('prompt-sync')();
 
 let valor1 = parseFloat(prompt('Informe o primeiro valor: '));
 let valor2 = parseFloat(prompt('Informe o segundo valor: '));

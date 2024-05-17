@@ -4,7 +4,7 @@
  - Modificar o valor do terceiro inteiro para 12% do valor original;
  - Armazenar no quarto valor inteiro a soma dos valores iniciais dos tres primeiros.
 */
-const prompt = require('prompt-sync')();
+let prompt = require('prompt-sync')();
 
 let n1 = parseInt(prompt('Informe o primeiro número inteiro: '));
 let n2 = parseInt(prompt('Informe o segundo número inteiro: '));

@@ -1,6 +1,6 @@
 //Ler temperatura em °C e transformar em °F.
 
-const prompt = require('prompt-sync')();
+let prompt = require('prompt-sync')();
 
 console.log('====== Conversor °C -> °F ======');
 let grausCelsius = parseInt(prompt('Informe a temperatura em Celsius(°C): '));

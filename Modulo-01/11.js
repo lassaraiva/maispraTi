@@ -1,6 +1,6 @@
 //Receber valores inteiros e verificar se são pares ou ímpares.
 
-const prompt = require('prompt-sync')();
+let prompt = require('prompt-sync')();
 
 while(true){
     let valor = parseInt(prompt('Informe um número inteiro positivo: '));

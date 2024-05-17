@@ -1,6 +1,6 @@
 //Receber numeros decimais, seus pesos e fazer a media ponderada.
 
-const prompt = require('prompt-sync')();
+let prompt = require('prompt-sync')();
 
 let soma = 0;
 let somaPonderada = 0;

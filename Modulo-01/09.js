@@ -1,6 +1,6 @@
 //Regiao do produto através do codigo.
 
-const prompt = require('prompt-sync')();
+let prompt = require('prompt-sync')();
 
 let codigoProduto = parseInt(prompt('Informe o código do produto: '));
 let regiao;

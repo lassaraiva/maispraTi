@@ -1,6 +1,6 @@
 //Menos de uma duzia de maçãs custa R$ 0,30. A partir de uma dúzia R$ 0,25.
 
-const prompt = require('prompt-sync')();
+let prompt = require('prompt-sync')();
 
 let totalMacas = parseInt(prompt('Informe a quantidade de maçãs comprada: '));
 

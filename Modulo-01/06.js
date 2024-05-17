@@ -1,6 +1,6 @@
 // Verificar se 3 valores podem formar um triângulo. Se sim, isósceles, escaleno ou equilátero.
 
-const prompt = require('prompt-sync')();
+let prompt = require('prompt-sync')();
 
 let A = parseFloat(prompt('Informe o primeiro valor: '));
 let B = parseFloat(prompt('Informe o segundo valor: '));

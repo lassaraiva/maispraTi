@@ -1,6 +1,6 @@
 //Ler um número inteiro e escrevê-lo 10 vezes.
 
-const prompt = require('prompt-sync')();
+let prompt = require('prompt-sync')();
 
 let numero = parseInt(prompt('Informe um número inteiro: '));
 

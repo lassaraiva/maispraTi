@@ -1,6 +1,6 @@
 //Receber numeros decimais e fazer a media aritmetica.
 
-const prompt = require('prompt-sync')();
+let prompt = require('prompt-sync')();
 
 let soma = 0;
 let cont = 0;

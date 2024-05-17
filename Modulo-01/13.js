@@ -1,6 +1,6 @@
 //Tabuada
 
-const prompt = require('prompt-sync')();
+let prompt = require('prompt-sync')();
 
 for(let i = 0; i < 5; i ++){
     let valor = parseInt(prompt('Informe um número: '));

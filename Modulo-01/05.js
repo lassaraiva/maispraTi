@@ -1,6 +1,6 @@
 //Ler duas notas, calcular a média e exibir aprovação (6.0) e reprovação
 
-const prompt = require('prompt-sync')();
+let prompt = require('prompt-sync')();
 
 let nota1 = parseFloat(prompt("Informe a primeira nota: "));
 let nota2 = parseFloat(prompt("Informe a segunda nota: "));
